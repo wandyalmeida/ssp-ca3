@@ -48,14 +48,17 @@
                     <form enctype="application/json" action="/post/json" method="post">
                         <div class="form-group">
                             <select class="form-select" name="sec_n">
-                                <option value="0">Coffee</option>
-                                <option value="1">Frappe</option>
-                                <option value="2">Iced Coffee</option>
-                                <option value="3">Tea</option>
-                                <option value="4">Deserts</option>
+                                <!-- <option value="0">Open this select menu</option> -->
+                                <option value="0">Movies</option>
+                                <option value="1">Action</option>
+                                <option value="2">Drama</option>
+                                <option value="3">Comedy</option>
+                                <option value="4">Infantil</option>
                             </select>
-                            <input class="form-control mt-3" type="text" name="listing" placeholder="Listing">
-                            <input class="form-control mt-3" type="text" name="price" placeholder="Price">
+                            <input class="form-control mt-3" type="text" name="movie_name" placeholder="Movie Name">
+                            <input class="form-control mt-3" type="text" name="type" placeholder="Type">
+                            <input class="form-control mt-3" type="text" name="time" placeholder="Time">
+                            <input class="form-control mt-3" type="text" name="image" placeholder="Put the link of the image from google">
                             <div class="d-grid gap-2 mt-3">
                                 <button type="submit" class="btn btn-primary btn-block">Submit</button>
                             </div>
@@ -74,3 +77,4 @@
         <script src="js/scripts.js"></script>
     </body>
 </html>
+
