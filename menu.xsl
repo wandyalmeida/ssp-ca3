@@ -27,7 +27,7 @@
 							</td>
 							<td>
 								<xsl:for-each select="Image">
-									<Image class="rounded" with="200" height="200"> 
+									<Image class="rounded" height="200"> 
 									<xsl:attribute name="src">
 										<xsl:value-of select="."/>
 									</xsl:attribute>

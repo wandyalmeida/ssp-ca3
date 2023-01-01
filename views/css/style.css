@@ -3,6 +3,14 @@ body {
     background-color: bisque;
 }
 
+img{
+    height: 200px;
+ } 
+
+.slides{
+    width: 300px;
+    height: 200px;
+}
 table {
     width:100%;
 }
