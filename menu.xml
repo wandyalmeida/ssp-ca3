@@ -1,18 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <menu>
-  <category name="Movies">
+  <category name="Drama">
     <movie>
       <movie_name>Corsage</movie_name>
       <type>2D</type>
       <time>20:00</time>
       <Image>https://regalcdn.azureedge.net/CW/Corsage/HO00008982/TV_SmallPosterImage/20221213-082058486.jpg</Image>
     </movie>
+  </category>
+  <category name="Action">
     <movie>
       <movie_name>Avatar: The Way Of Water</movie_name>
       <type>2D</type>
       <time>15:10</time>
       <Image>https://regalcdn.azureedge.net/CW/AvatarTheWayOfWater/HO00008423/TV_SmallPosterImage/20221103-104758342.jpg</Image>
     </movie>
+    <movie>
+      <movie_name>Violent Night</movie_name>
+      <type>2D</type>
+      <time>20:50</time>
+      <Image>https://regalcdn.azureedge.net/CW/ViolentNight/HO00008985/TV_SmallPosterImage/20221122-080414291.jpg</Image>
+    </movie>
+    <movie>
+      <movie_name>Black Panther:Wakanda Forever</movie_name>
+      <type>2D</type>
+      <time>16:20</time>
+      <Image>https://regalcdn.azureedge.net/CW/BlackPantherWakandaForever/HO00008429/TV_SmallPosterImage/20221031-115154721.jpg</Image>
+    </movie>
+  </category>
+  <category name="Comedy">
     <movie>
       <movie_name>Home Alone</movie_name>
       <type>2D</type>
@@ -26,28 +42,34 @@
       <Image>https://regalcdn.azureedge.net/CW/Elf/HO00002403/TV_SmallPosterImage/20211108-071705089.jpg</Image>
     </movie>
     <movie>
-      <movie_name>Violent Night</movie_name>
+      <movie_name>Whitney Houston: I Wanna Dance With Somebody</movie_name>
       <type>2D</type>
-      <time>20:50</time>
-      <Image>https://regalcdn.azureedge.net/CW/ViolentNight/HO00008985/TV_SmallPosterImage/20221122-080414291.jpg</Image>
+      <time>18:50</time>
+      <Image>https://regalcdn.azureedge.net/CW/IWannaDanceWithSomebody/HO00008449/TV_SmallPosterImage/20221004-121049490.jpg</Image>
     </movie>
+  </category>
+  <category name="Musical">
     <movie>
       <movie_name>Roald Dahl's Matilda The Musical</movie_name>
       <type>2D</type>
       <time>19:20</time>
       <Image>https://regalcdn.azureedge.net/CW/RoaldDahlsMatildaTheMusical/HO00008987/TV_SmallPosterImage/20221019-105420850.jpg</Image>
     </movie>
+  </category>
+  <category name="Animation">
+    <movie>
+      <movie_name>Angry Birds</movie_name>
+      <type>2D</type>
+      <time>13:40</time>
+      <Image>https://m.media-amazon.com/images/M/MV5BMTY3MjU0NDA0OF5BMl5BanBnXkFtZTgwNTc0MTU3OTE@._V1_FMjpg_UX1000_.jpg</Image>
+    </movie>
+  </category>
+  <category name="Horror">
     <movie>
       <movie_name>The Menu</movie_name>
       <type>2D</type>
       <time>17:40</time>
       <Image>https://regalcdn.azureedge.net/CW/TheMenu/HO00008979/TV_SmallPosterImage/20221005-101146954.jpg</Image>
-    </movie>
-    <movie>
-      <movie_name>Black Panther:Wakanda Forever</movie_name>
-      <type>2D</type>
-      <time>16:20</time>
-      <Image>https://regalcdn.azureedge.net/CW/BlackPantherWakandaForever/HO00008429/TV_SmallPosterImage/20221031-115154721.jpg</Image>
     </movie>
   </category>
 </menu>

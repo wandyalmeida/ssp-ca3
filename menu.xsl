@@ -13,7 +13,7 @@
 			<tbody>
 				<xsl:for-each select="//category">
 					<tr>
-						<td colspan="3">
+						<td colspan="4">
 							<xsl:value-of select="@name" />
 						</td>
 					</tr>
@@ -27,14 +27,14 @@
 							</td>
 							<td>
 								<xsl:for-each select="Image">
-									<Image with="200" height="200"> 
+									<Image class="rounded" with="200" height="200"> 
 									<xsl:attribute name="src">
 										<xsl:value-of select="."/>
 									</xsl:attribute>
-									<xsl:attribute name="align">left</xsl:attribute>
+									
 									</Image>
 								</xsl:for-each>
-								
+								<xsl:attribute name="align">left</xsl:attribute>
 								<b><xsl:value-of select="movie_name" /></b>
 							</td>
 							<td>

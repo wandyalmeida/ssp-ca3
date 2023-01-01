@@ -1,5 +1,6 @@
 body {
     margin-bottom: 60px;
+    background-color: bisque;
 }
 
 table {
@@ -8,7 +9,7 @@ table {
 
 table, th, td {
     border-collapse: collapse;
-    border: 1px solid #ced4da;
+    border: 1px solid #070707;
     padding: 0.5rem;
 }
 
