@@ -19,15 +19,16 @@
 					</tr>
 					<xsl:for-each select="movie">
 						<tr id="{position()}">
-							<xsl:attribute name="decaf">
-								<xsl:value-of select="boolean(@decaf)" />
+							<xsl:attribute name="animation">
+								<xsl:value-of select="boolean(@animation)" />
 							</xsl:attribute>
 							<td align="center">
 								<input name="item0" type="checkbox" />
 							</td>
 							<td>
+							<!--reference link where I got the code https://pt.stackoverflow.com/questions/11322/como-exibir-imagens-com-xsl-com-a-src-da-img-do-arquivo-xml -->
 								<xsl:for-each select="Image">
-									<Image class="rounded" height="200"> 
+									<Image class="rounded-3" height="200"> 
 									<xsl:attribute name="src">
 										<xsl:value-of select="."/>
 									</xsl:attribute>

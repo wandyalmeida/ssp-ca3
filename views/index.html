@@ -43,17 +43,18 @@
                 <h1>Welcome to our CINE 📽</h1>
                 <p class="lead">Select your movie from the menu below</p>
             </div>
-            
-            <div id="carouselExampleInterval" class="carousel slide slides col-lg-4 mb-5" data-bs-ride="carousel">
+            <!-- start slide 
+            reference site: https://getbootstrap.com/docs/5.0/components/carousel/ -->
+            <div id="carouselExampleInterval" class="carousel slide carousel-fade  mb-5 w-100"   data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="https://regalcdn.azureedge.net/CW/AvatarTheWayOfWater/HO00008423/TV_SmallPosterImage/20221103-104758342.jpg" class="d-block w-100" alt="Avatar The Way Of Water">
+                    <img src="https://regalcdn.azureedge.net/CW/AvatarTheWayOfWater/HO00008423/TV_SmallPosterImage/20221103-104758342.jpg" class="rounded position-relative w-50" height="200" alt="Avatar The Way Of Water">
                   </div>
                   <div class="carousel-item" data-bs-interval="2000">
-                    <img src="https://regalcdn.azureedge.net/CW/Elf/HO00002403/TV_SmallPosterImage/20211108-071705089.jpg" class="d-block w-100" alt="ELF">
+                    <img src="https://regalcdn.azureedge.net/CW/Elf/HO00002403/TV_SmallPosterImage/20211108-071705089.jpg" class="rounded position-relative w-50" height="200" alt="ELF">
                   </div>
                   <div class="carousel-item">
-                    <img src="https://regalcdn.azureedge.net/CW/HomeAlone/HO00006073/TV_SmallPosterImage/20221212-115824870.jpg" class="d-block w-100" alt="Home Alone">
+                    <img src="https://regalcdn.azureedge.net/CW/HomeAlone/HO00006073/TV_SmallPosterImage/20221212-115824870.jpg" class="rounded position-relative w-50" height="200" alt="Home Alone">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -77,12 +78,11 @@
                                 <option value="3">Musical</option>
                                 <option value="4">Animation</option>
                                 <option value="5">Horror</option>
-                            
                             </select>
                             <input class="form-control mt-3" type="text" name="movie_name" placeholder="Movie Name">
                             <input class="form-control mt-3" type="text" name="type" placeholder="Type">
                             <input class="form-control mt-3" type="text" name="time" placeholder="Time">
-                            <input class="form-control mt-3" type="text" name="image" placeholder="Link of the image">
+                            <input class="form-control mt-3" type="text" name="image" placeholder="Link of the image"><!--Get image from the user-->
                             <div class="d-grid gap-2 mt-3">
                                 <button type="submit" class="btn btn-primary btn-block">Submit</button>
                             </div>
